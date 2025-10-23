@@ -46,14 +46,14 @@ volumes      3.5828950225519e+03 3.0878378153855e+04 3.5829053477285e+03 2.74112
              1.2814885290855e+04 1.2814896009576e+04 1.2814865617281e+04 1.2814890350548e+04 1.2814892987523e+04 1.2814879727438e+04 1.2814906775841e+04 1.2814873195253e+04 1.2814876301518e+04 1.1262827191230e+06
 
 [PHYSICS=ce]
-ce_lib_path   "/projects/helios/scale/data/cache/v1.13.0/ce_7.1_hdf.h5"
-kappa_library "/projects/helios/scale/data/cache/v1.13.0/kappa.h5"
+ce_lib_path   "../ce_7.1_hdf.h5"
+kappa_library "../kappa.h5"
 mode           n
 dbrc           off
 
 [COMP]
 output         true
-sclib_path    "/projects/helios/scale/data/cache/v1.13.0/scale.rev40.sclib"
+sclib_path    "../scale.rev40.sclib"
 
 [PHYSICS][BROADEN]
 kinematics     true

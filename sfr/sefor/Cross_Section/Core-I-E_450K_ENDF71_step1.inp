@@ -1,10 +1,10 @@
 #!/bin/bash
 
-lib_mcclibdir=/home/iph/00_Codes/mcc3/lib/lib.mcc.e71
-lib_pwlibdir=/home/iph/00_Codes/mcc3/lib/lib.pw.200.e71
-exe_twodant=/home/iph/00_Codes/mcc3/src/twodant.x
-exe_mcc3=/home/iph/00_Codes/mcc3/src/mcc3.x
-exe_isotxs_modify=/home/iph/00_Codes/mcc3/src/ISOTXS_Modify.x
+lib_mcclibdir=../lib.mcc.e71
+lib_pwlibdir=../lib.pw.200.e71
+exe_twodant=../twodant.x
+exe_mcc3=../mcc3.x
+exe_isotxs_modify=../ISOTXS_Modify.x
 !
 ! ============================================================
 !
