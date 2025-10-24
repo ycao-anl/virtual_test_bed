@@ -4,10 +4,10 @@
 ' - Both axial and radial expansions are considered.
 ' - Length of the regions in the both Ni axial reflectors and core is expanded
 '   according to the linear thermal expansion coefficient in the benchmark.
-' - Fuel rod length followed the specification in Table 1. BeO and SS length 
+' - Fuel rod length followed the specification in Table 1. BeO and SS length
 '   followed the spec in Table 2, however the expansion of SS is limited only
 '   to the fuel rod region. No SS expansion in Na-steel and Na-grid plate region.
-' - Specifically, the radial and axial expansion coefficient is applied to fuel, BeO, 
+' - Specifically, the radial and axial expansion coefficient is applied to fuel, BeO,
 '    SS, Ni. B4C is only expanded radially.
 ' - Nuclide density of the expanded region is reduced according to its volume
 '   radio reduction to conserve the mass.
@@ -281,7 +281,7 @@ unit 1
      media  21  1 110 -100
      media  11  1 120 -110
      media  22  1 130 -120
-  boundary 130 
+  boundary 130
 
 unit 2
   com="Fuel pin with standard fuel"
@@ -308,7 +308,7 @@ unit 2
      media   0  1 100 -90 -80 -70 -60 -50
                       -40 -30 -20 -10
      media  21  1 110 -100
-  boundary 110    
+  boundary 110
 
 unit 3
   com="Fuel pin with guinea pig fuel"
@@ -335,8 +335,8 @@ unit 3
      media   0  1 100 -90 -80 -70 -60 -50
                       -40 -30 -20 -10
      media  21  1 110 -100
-  boundary 110 
-      
+  boundary 110
+
 unit 4
   com="Absorber pin"
   cylinder  10  1.11426   41.5320   30.7450  com="Lower Ni Reflector"
@@ -351,21 +351,21 @@ unit 4
      media  28  1  40 -20
      media   0  1 100 -40 -30 -20 -10
      media  21  1 110 -100
-  boundary 110 
+  boundary 110
 
 unit 6
   com="Wire pin"
   cylinder 100  0.31834  145.3628   30.7450  com="wire pin"
      media  22  1 100
-  boundary 100 
+  boundary 100
 
 unit 10
   com="FRED"
  rhexprism  10  4.02388   30.7450    0.0000  com="Na-grid plate"
   cylinder  20  1.67444  165.6018   30.7450  com="Absorber for transient, now void"
   cylinder  30  1.75726  165.6018   30.7450  com="Gap"
-  cylinder  40  2.11381  165.6018   30.7450  com="SS316 clad" 
- rhexprism  50  3.85834  165.6018   30.7450  com="Steel duct" 
+  cylinder  40  2.11381  165.6018   30.7450  com="SS316 clad"
+ rhexprism  50  3.85834  165.6018   30.7450  com="Steel duct"
  rhexprism  60  4.01114  165.6018   30.7450  com="Inside duct"
  rhexprism  70  4.02388  165.6018   30.7450  com="Sodium gap"
  rhexprism 100  4.02388  165.6018    0.0000  com="Outer boundary"
@@ -404,7 +404,7 @@ unit 11
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 12
   com="Standard fuel assembly with 2 GPs on top left"
@@ -432,7 +432,7 @@ unit 12
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 13
   com="Standard fuel assembly with 2 GPs on top right"
@@ -460,7 +460,7 @@ unit 13
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 21
   com="Standard fuel assembly with 1 B4C rod at top right"
@@ -488,7 +488,7 @@ unit 21
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 22
   com="Standard fuel assembly with 1 B4C rod at top left"
@@ -516,7 +516,7 @@ unit 22
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 23
   com="Standard fuel assembly with 1 B4C rod at left"
@@ -544,7 +544,7 @@ unit 23
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 24
   com="Standard fuel assembly with 1 B4C rod at bottom left"
@@ -572,7 +572,7 @@ unit 24
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 25
   com="Standard fuel assembly with 1 B4C rod at bottom right"
@@ -600,7 +600,7 @@ unit 25
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 26
   com="Standard fuel assembly with 1 B4C rod at right"
@@ -628,7 +628,7 @@ unit 26
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 41
   com="Standard fuel assembly with 1 B4C rod at top left and 1 GP rod at top right"
@@ -656,7 +656,7 @@ unit 41
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 42
   com="Standard fuel assembly with 1 B4C rod at right and 1 GP rod at bottom right"
@@ -684,7 +684,7 @@ unit 42
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 43
   com="Standard fuel assembly with 1 B4C rod at bottom left and 1 GP rod at left"
@@ -712,7 +712,7 @@ unit 43
      hole    6  origin y=-1.73770  x=-3.00978
      media  11  1  40 -30
      media  36  1  50
-  boundary  60 
+  boundary  60
 
 unit 31
   com="Downcomer Inner Vessel"
@@ -726,14 +726,14 @@ global unit 100
       ring   20  58.26300  73.55300   30.7450    0.0000  com="Steel void"
       ring   30  58.26300  73.55300  145.3628   30.7450  com="Reflector"
       ring   40  58.26300  73.55300  165.6018  145.3628  com="Steel void"
-     plane   31  xpl= 0.577350  ypl=-1.00000  zpl=0.00000  con=0.00000 
+     plane   31  xpl= 0.577350  ypl=-1.00000  zpl=0.00000  con=0.00000
      plane   32  xpl= 2.246040  ypl=-1.00000  zpl=0.00000  con=0.00000
      plane   33  xpl=-4.704630  ypl=-1.00000  zpl=0.00000  con=0.00000
      plane   34  xpl=-0.900404  ypl=-1.00000  zpl=0.00000  con=0.00000
      plane   35  xpl=-0.105104  ypl=-1.00000  zpl=0.00000  con=0.00000
      plane   36  xpl= 0.000000  ypl= 1.00000  zpl=0.00000  con=0.00000
      plane   37  xpl= 1.000000  ypl= 0.00000  zpl=0.00000  con=0.00000
-  cylinder   50  87.03400            165.6018    0.0000 
+  cylinder   50  87.03400            165.6018    0.0000
      array   10  10  place 10 10 1 0.0 0.0 0.0
      media   32  1   11 -10
      media   37  1   20 -32 -33
